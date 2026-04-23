@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Main Css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Font Awesome 7  -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <title>To Do List</title>
+  </head>
+  <body>
+    <canvas class="starsBg" id="stars"></canvas>
+    <div class="container">
+      <div class="task-container">
+        <div class="taskInput">
+          <input
+            dir="auto"
+            type="text"
+            name="newTask"
+            id="newTask"
+            placeholder="Add New Task"
+          />
+          <button class="add-task" id="addTask">Add Task</button>
+        </div>
+        <div class="tasks" id="tasksContainer">
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
